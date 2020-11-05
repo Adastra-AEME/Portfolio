@@ -46,6 +46,10 @@ a {
     color: #b2c251;
     text-decoration: none; }
 
+.single-portfolio img:hover {
+  opacity: .35;
+}
+
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
   padding: 15px 20px !important; }
 
@@ -180,7 +184,9 @@ a {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-section {
-  padding: 5em 0; }
+  padding: 5em 0; 
+  padding-bottom: 0;  
+}
 
 .section-heading {
   margin-bottom: 30px;
